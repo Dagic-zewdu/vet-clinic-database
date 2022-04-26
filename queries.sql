@@ -50,3 +50,21 @@ WHERE name LIKE '%mon'
 UPDATE animals
 SET species="pokemon"
 WHERE species IS NULL;
+
+/* delete all records in the animals table, then roll back the transaction.*/
+DELETE FROM animals
+
+/* Delete all animals born after Jan 1st, 2022.*/
+DELETE FROM animals
+WHERE date_of_birth > "01/01/2022"
+
+/*Update all animals' weight to be their weight multiplied by -1*/
+UPDATE animals
+SET weight=weight*(-1)
+
+/*Update all animals' weights that are negative to be their weight multiplied by -1*/
+UPDATE animals
+SET weight=weight*(-1)
+WHERE weight < 0 ;
+
+

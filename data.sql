@@ -6,19 +6,19 @@ INSERT INTO animals (name,date_of_birth,weight_kg,escape_attempts,neutered) VALU
 /**ex-2*/
 /**Animal: His name is Charmander. He was born on Feb 8th, 2020, and currently weighs -11kg. 
 He is not neutered and he has never tried to escape.*/
-INSERT INTO animals (name,date_of_birth,weight_kg,escape_attempts,neutered) VALUES ('Charmander',"8/2/2020",11,0,"0");
+INSERT INTO animals (name,date_of_birth,weight_kg,escape_attempts,neutered) VALUES ('Charmander',"8/2/2020",-11,0,"0");
 
 /*Animal: Her name is Plantmon. She was born on Nov 15th, 2021, and currently weighs -5.7kg. 
 She is neutered and she has tried to escape 2 times.**/
-INSERT INTO animals (name,date_of_birth,weight_kg,escape_attempts,neutered) VALUES ('Plantmon',"15/11/2021",5.7,2,"1");
+INSERT INTO animals (name,date_of_birth,weight_kg,escape_attempts,neutered) VALUES ('Plantmon',"15/11/2021",-5.7,2,"1");
 
 /**Animal: His name is Squirtle. He was born on Apr 2nd, 1993, and currently weighs -12.13kg. 
 He was not neutered and he has tried to escape 3 times.*/
-INSERT INTO animals (name,date_of_birth,weight_kg,escape_attempts,neutered) VALUES ('Squirtle',"2/4/1993",12.13,3,"0");
+INSERT INTO animals (name,date_of_birth,weight_kg,escape_attempts,neutered) VALUES ('Squirtle',"2/4/1993",-12.13,3,"0");
 
 /*Animal: His name is Angemon. He was born on Jun 12th, 2005, and currently weighs -45kg.
  He is neutered and he has tried to escape once.*/
-INSERT INTO animals (name,date_of_birth,weight_kg,escape_attempts,neutered) VALUES ('Angemon',"12/6/2005",45,1,"1");
+INSERT INTO animals (name,date_of_birth,weight_kg,escape_attempts,neutered) VALUES ('Angemon',"12/6/2005",-45,1,"1");
 
 /*Animal: His name is Boarmon. He was born on Jun 7th, 2005, and currently weighs 20.4kg. 
 He is neutered and he has tried to escape 7 times.**/
